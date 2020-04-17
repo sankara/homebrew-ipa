@@ -2,7 +2,7 @@ require 'formula'
 
 class Gitstats < Formula
   homepage 'http://gitstats.sourceforge.net/'
-  head 'https://github.com/nerdrew/gitstats.git'
+  head 'https://github.com/hoxu/gitstats.git'
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
